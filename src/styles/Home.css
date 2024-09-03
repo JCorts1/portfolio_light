@@ -1,0 +1,33 @@
+.father-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/mainbackground.jpg");
+}
+
+.father-filter {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(32,32,32);
+  background: radial-gradient(circle, rgba(32,32,32,0.6460959383753502) 7%, rgba(0,0,0,0.6629026610644257) 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myname {
+  font-size: 50px;
+  color: white;
+}
+
+.color-code1 {
+  color: #9B9907;
+}
+
+.card-info h2 {
+  color: #1C80AE;
+  font-size: 26px;
+}
+
+.color-code2 {
+  color: #fff;
+}
