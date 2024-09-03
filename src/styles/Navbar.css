@@ -1,0 +1,44 @@
+.father-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  gap: 14px;
+  border-bottom: 0.1em solid #989898;
+  background-color: #131313;
+
+}
+
+.list-nav li {
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-right: 0.1em solid #989898;
+  text-align: center;
+}
+
+.list-nav li:hover {
+  border-top: 0.1em #89890B solid;
+}
+
+.items-link {
+  color: #838383;
+  margin-right: 10px;
+}
+
+.items-link:hover {
+  color: #1C80AE;
+}
+
+.item-home {
+  padding-right: 10px;
+}
