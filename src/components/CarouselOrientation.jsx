@@ -8,6 +8,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import "../styles/Carousel.css"
 import localland from "../img/projects-img/localland.png"
 import localmap from "../img/projects-img/localmap.png"
 import localevent from "../img/projects-img/localevent.png"
@@ -29,9 +30,9 @@ export function CarouselOrientation() {
         align: "start",
       }}
       orientation="vertical"
-      className="w-full max-w-xs dark"
+      className=" dark"
     >
-      <CarouselContent className="-mt-1 h-[500px]">
+      <CarouselContent className="carousel-content">
         {projectsPics.map((pic, index) => (
           <CarouselItem key={index} className="pt-1 md:basis-1/2">
             <div className="">
