@@ -84,6 +84,11 @@
 }
 
 @media only screen and (min-width: 601px) and (max-width: 2560px) {
+
+  .about-card {
+    margin-left: 10%;
+  }
+
   .avatar {
     width: 30%;
     display: flex;
