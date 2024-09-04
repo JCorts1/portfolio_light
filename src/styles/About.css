@@ -1,0 +1,70 @@
+.about-father {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/mainbackground.jpg");
+
+}
+
+.about-filter {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(32,32,32);
+  background: radial-gradient(circle, rgba(32,32,32,0.6460959383753502) 7%, rgba(0,0,0,0.6629026610644257) 63%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-nav {
+  height: 10%;
+}
+
+.about-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85%;
+  width: 85%;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-card {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .avatar {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .avatar img {
+    width: 60%;
+    border: 0.1em solid #989898
+  }
+
+  .about-text {
+    width: 90%;
+    text-align: left;
+    color: #fff;
+    margin-top: 20px;
+  }
+
+  .about-technologies {
+    width: 85%;
+    height: 30%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .technologies-icon {
+    width: 50px;
+  }
+}
