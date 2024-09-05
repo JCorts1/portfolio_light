@@ -1,14 +1,12 @@
-import * as React from "react";
-
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card"
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel";
-import "../styles/Carousel.css"
+} from "@/components/ui/carousel"
+
 import localland from "../img/projects-img/localland.png"
 import localmap from "../img/projects-img/localmap.png"
 import localevent from "../img/projects-img/localevent.png"
@@ -30,12 +28,12 @@ export function CarouselOrientation() {
         align: "start",
       }}
       orientation="vertical"
-      className=" dark"
+      className="w-full max-w-xs dark"
     >
-      <CarouselContent className="carousel-content">
+      <CarouselContent className="-mt-1 h-[500px]">
         {projectsPics.map((pic, index) => (
           <CarouselItem key={index} className="pt-1 md:basis-1/2">
-            <div className="">
+            <div className="p-1">
               <Card>
                 <CardContent className="flex items-center justify-center p-6">
                   <img src={pic} alt="" />
@@ -45,8 +43,8 @@ export function CarouselOrientation() {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious className="text-white" />
-      <CarouselNext className="text-white" />
+      <CarouselPrevious className="text-white"/>
+      <CarouselNext className="text-white"/>
     </Carousel>
-  );
+  )
 }
