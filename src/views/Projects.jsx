@@ -8,7 +8,11 @@ const Projects = () => {
     <div className="father-projects">
       <div className="projects-filter">
         <div className="carousel-container">
-          <h1 className="text-blue-600">This is a test</h1>
+          <div className="carousel-text">
+          <h1 className="">Local Loop</h1>
+          <p></p>
+          </div>
+
           < CarouselOrientation />
         </div>
       </div>
