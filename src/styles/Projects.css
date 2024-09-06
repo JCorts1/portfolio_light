@@ -1,7 +1,13 @@
 .father-projects {
-  width: 100vw;
-  height: 100vh;
   background-image: url("../img/mainbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed; /* Keeps the background fixed */
+  width: 100vw;
+  height: 100vh; /* Keep the height fixed to the viewport height */
+  overflow-y: auto;
+  background-size:inherit;
 }
 
 .projects-filter {
@@ -32,17 +38,21 @@
   }
 
   .projects-filter {
+    width: 100vw;
+    height: 100vh; /* Keep the height fixed to the viewport height */
     overflow-y: auto;
-    background-size:inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .navprojects {
-    height: 5%;
-    margin-top: 30px;
+
   }
 
   .carousel-container {
-    height: 90%;
+    margin-top: 30%;
+    height: 80%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
