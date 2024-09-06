@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Projects.css"
-import { CarouselOrientation } from "../components/carouselOrientation";
+import { CarouselOrientation } from "../components/CarouselOrientation";
 import Navbar from "../components/Navbar";
 
 const Projects = () => {
