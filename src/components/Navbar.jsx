@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className='father-nav'>
       <ul className='list-nav'>
         <li><Link className='items-link item-home' to="/">Home</Link></li>
-        <li><Link className='items-link' to="/about">About Me</Link></li>
+        <li><Link className='items-link' to="/about">About</Link></li>
         <li><Link className='items-link' to="/projects">Projects</Link></li>
         <li> <Link className='items-link' to="/contact">Contact</Link></li>
       </ul>
