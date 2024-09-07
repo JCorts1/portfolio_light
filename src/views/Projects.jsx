@@ -2,6 +2,8 @@ import React from "react";
 import "../styles/Projects.css"
 import { CarouselOrientation } from "../components/CarouselOrientation";
 import Navbar from "../components/Navbar";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 const Projects = () => {
   return (
@@ -22,6 +24,7 @@ const Projects = () => {
               This is a social media where you can find and participate in
               events around your zipcode.
             </p>
+            <div><a href="https://www.localloop.site/"><FontAwesomeIcon icon={faLink} /></a></div>
           </div>
 
           <CarouselOrientation />
