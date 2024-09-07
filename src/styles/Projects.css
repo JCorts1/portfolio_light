@@ -7,7 +7,6 @@
   width: 100vw;
   height: 100vh; /* Keep the height fixed to the viewport height */
   overflow-y: auto;
-  background-size:inherit;
 }
 
 .projects-filter {
@@ -60,5 +59,31 @@
   .carousel-text {
     width: 80%;
     margin-bottom: 100px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 2560px) {
+  .projects-filter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-projects {
+    padding-top: 30px;
+    height: 300px;
+  }
+
+  .carousel-container {
+    margin-top: 4%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carousel-text {
+    width: 40%;
+    margin-right: 7%;
   }
 }
