@@ -14,7 +14,7 @@ const Projects = () => {
         </div>
         <div className="carousel-container">
           <div className="carousel-text">
-            <h1 className="">Local Loop</h1>
+            <h1 className="">Local<span className='color-code1'>.Loop</span></h1>
             <p>
               Final Project from Le Wagon Bootcamp. This phone application was
               made with Ruby on Rails using MVC. contains validations, Database

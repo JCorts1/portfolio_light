@@ -26,6 +26,14 @@
   color: #fff;
 }
 
+.carousel-text h1 {
+  font-family: "JetBrains Mono", monospace;
+}
+
+.carousel-text p {
+  font-family: "Roboto Mono", monospace;
+}
+
 @media only screen and (max-width: 600px) {
   .father-projects{
     overflow-y: auto;
@@ -85,5 +93,14 @@
   .carousel-text {
     width: 40%;
     margin-right: 7%;
+  }
+
+  .carousel-text h1 {
+    font-size: 1.7rem;
+  }
+
+  .carousel-text p {
+    font-size: 1.4rem;
+    margin-top: 1rem;
   }
 }
